@@ -1,0 +1,19 @@
+##########################
+# Unreal Generated Files #
+##########################
+*/Build
+*/Binaries
+*/DerivedDataCache
+*/Intermediate
+*/Saved
+BuildingEscape/Content/StarterContent/
+BuildingEscape/Content/AnimStarterPack/
+BuildingEscape/Content/UE4_Mannequin_Mobile/
+
+######################
+# VS Generated Files #
+######################
+*.VC.db
+BuildingEscape/.vs/BuildingEscape/v15/ipch/
+*.VC.db-shm
+*.VC.db-wal
