@@ -17,3 +17,4 @@ BuildingEscape/Content/UE4_Mannequin_Mobile/
 BuildingEscape/.vs/BuildingEscape/v15/ipch/
 *.VC.db-shm
 *.VC.db-wal
+*.opendb
