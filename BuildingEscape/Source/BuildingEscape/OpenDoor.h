@@ -31,15 +31,18 @@ public:
 
 private:
 
-	bool bIsOpen = false;
-
 	UPROPERTY(VisibleAnywhere)
-	float angle = 90.f;
+	float fOpenAngle = 0.f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* pressurePlate;
 
+	UPROPERTY(EditAnywhere)
+	float DoorCloseDelay = 1.f;
+
+	float LastDoorOpenTime;
+
 	//UPROPERTY(EditAnywhere)
 	AActor* actorWhichOpensDoor;
-	
+	AActor* owner;
 };
